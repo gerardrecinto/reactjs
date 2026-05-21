@@ -1,5 +1,1 @@
-# reactjs (GIF below)
-![Image](https://github.com/gerardrecinto/reactjs/blob/main/reactfood.gif)
-React.js Side Projects
-gerardlouisrecinto@Gerards-MBP backend % node app.js
-gerardlouisrecinto@Gerards-MBP reactjs % npm run dev
+# Food Order App\n\nReact + Vite food ordering app with a Node.js/Express backend. Browse a food menu, add items to a cart, and submit orders.\n\n![demo](./reactfood.gif)\n\n## Stack\n\n| Layer | Tech |\n|---|---|\n| Frontend | React 18, Vite 4 |\n| Backend | Node.js, Express |\n| Styling | Vanilla CSS |\n\n## Running locally\n\n**Backend** (port 3000):\n\n```bash\ncd backend\nnode app.js\n```\n\n**Frontend** (port 5173):\n\n```bash\nnpm install\nnpm run dev\n```\n\nOpen [http://localhost:5173](http://localhost:5173).\n\n## Scripts\n\n```bash\nnpm run dev      # dev server with HMR\nnpm run build    # production build to dist/\nnpm run preview  # preview the production build\nnpm run lint     # ESLint check\n```\n
